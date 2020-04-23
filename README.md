@@ -1,7 +1,7 @@
 # DeepSHAPE 
 Command line for training and testing<br />
 python main.py train \<(1,1)\\(1,0)\\(0,1)\> \<binary_crossentropy\mse\> \<in_vitro\in_vivo\> \<training sequences file\>  \<training RNAplfold file\> \<annotation file\><br />
-python main.py predict \<(1,1)\\(1,0)\\(0,1)\> \<binary_crossentropy\mse\> \<in_vitro\in_vivo\> \<path to testing sequences file\>  \<path to testing RNAplfold file\> \<path to testing annotation file\><br />
+python main.py predict \<(1,1)\\(1,0)\\(0,1)\> \<binary_crossentropy\mse\> \<in_vitro\in_vivo\> \<testing sequences file\>  \<testing RNAplfold file\> \<testing annotation file\><br />
 
 Inputs:
 - \<(1,1)\\(1,0)\\(0,1)\> - Controls x data selection (add_sequences, add_RNAplfold)
