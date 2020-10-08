@@ -8,7 +8,7 @@ python main.py <train/test>
 Inputs:
   - \<train\test\> - Train or test the network
     - "train" - Train DeepSHAPE network.
-    - "predict" - Test icSHAPE rectivity scores using DeepSHAPE trained netork.
+    - "test" - Predict icSHAPE rectivity scores using DeepSHAPE trained netork.
   - \<sequences\\RNAplfold\\both\> - Controls the input data type
     - "sequences" - Select only sequence data as an input to the network
     - "RNAplfold" - Select only RNAplfold data as an input to the network
