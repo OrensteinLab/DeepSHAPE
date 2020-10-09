@@ -1,5 +1,13 @@
 # DeepSHAPE 
-Command line for training and testing<br />
+A deep neural network for predicting SHAPE reactivity scores from high-throughput RNA probing data.
+
+Requirements:
+  - Python version 3.6.8
+  - TensorFlow version 1.13.1
+  - keras version 2.2.4
+  - numpy version 1.16.2
+
+Command line for training and testing:<br />
 python main.py <train/test>
 <sequences/RNAplfold/both> <binary_crossentropy/mse> <in_vitro/in_vivo>
 <training/testing sequences file> <training/testing RNAplfold file>
@@ -22,9 +30,7 @@ Inputs:
 
   - \<training/testing sequences file\> - Path to training sequences file
   - \<training/testing RNAplfold file\> - Path to training RNAplfold file
-  - \<training/testing annotation file\> - Path to training SHAPE file <br /> <br /> 
-
-
+  - \<training/testing annotation file\> - Path to training SHAPE file <br />
 Note - 	It is required to provide three valid input files regardless of the chosen input data type.<br /> <br /> 
 
 Outputs:
@@ -36,6 +42,5 @@ Outputs:
   - Testing Outputs stored in outputs/test_results/
     - log.txt
     - predictions_.txt - SHAPE predictions (one file per epoch)
-    - performance.txt - Performance    
-    
+    - performance.txt - Performance        
 Note - The outputs will be stored in a path that indicates the chosen training configuration under 'outputs' folder, i.e - (1)Dataset selection (2) input data type selection (3) loss function selection
