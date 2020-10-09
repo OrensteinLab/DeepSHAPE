@@ -31,7 +31,8 @@ Inputs:
   - \<training/testing sequences file\> - Path to training sequences file
   - \<training/testing RNAplfold file\> - Path to training RNAplfold file
   - \<training/testing annotation file\> - Path to training SHAPE file <br />
-Note - 	It is required to provide three valid input files regardless of the chosen input data type.<br /> <br /> 
+
+Note - 	It is required to provide three valid input files regardless of the chosen input data type.<br /> <br /><br /> 
 
 Outputs:
   - Training Outputs stored in outputs/saved_models/
@@ -42,5 +43,6 @@ Outputs:
   - Testing Outputs stored in outputs/test_results/
     - log.txt
     - predictions_.txt - SHAPE predictions (one file per epoch)
-    - performance.txt - Performance        
+    - performance.txt - Network performance
+
 Note - The outputs will be stored in a path that indicates the chosen training configuration under 'outputs' folder, i.e - (1)Dataset selection (2) input data type selection (3) loss function selection
